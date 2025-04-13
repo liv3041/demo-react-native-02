@@ -7,12 +7,14 @@ import {
   StyleSheet
 } from 'react-native'
 import FlatCards from './components/FlatCards'
+import ElevatedCards from './components/ElevatedCards'
 
 const App = () =>{
   return(
     <SafeAreaView>
       <ScrollView>
       <FlatCards></FlatCards>
+      <ElevatedCards></ElevatedCards>
       </ScrollView>
       
     </SafeAreaView>
